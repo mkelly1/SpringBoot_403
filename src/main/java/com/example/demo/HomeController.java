@@ -13,8 +13,12 @@ public class HomeController {
     public String login(){
         return "login";
     }
-    @RequestMapping("/myApp")
-    public String myApp(){
-        return "myApp";
+    @RequestMapping("/student")
+    public String student(){
+        return "student";
+    }
+    @RequestMapping("/teacher")
+    public String teacher(){
+        return "teacher";
     }
 }
